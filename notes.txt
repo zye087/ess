@@ -1,0 +1,35 @@
+1. Create database name `enhancing-school-safety`
+2. Open your php.ini file.
+If you encounter an error related to ext-gd, enable the GD extension in your php.ini file.
+Remove the semicolon (;) to enable it:
+extension=gd
+3. composer install
+4. php artisan migrate:refresh --seed
+5. php artisan config:clear;php artisan cache:clear;php artisan config:cache
+6. Ensure Laravel Storage Link is Set Up:
+Run the following command if you haven't already:
+php artisan storage:link
+
+
+icon reference
+https://fontawesome.com/v4/icons/
+https://icons.getbootstrap.com/
+
+text to audio
+https://www.narakeet.com/app/text-to-audio/?projectId=23f896bc-efaa-4b3f-81c4-3568d5b6fb71
+
+frontend
+https://block.codescandy.com/index.html#demo
+https://block.codescandy.com/account-home.html
+
+Backend
+https://startbootstrap.com/theme/sb-admin-pro
+
+
+SMS API
+https://www.itexmo.com/ 
+https://textlocal.com/
+https://www.twilio.com/en-us
+https://semaphore.co/
+https://www.infobip.com/
+https://www.vonage.com/
