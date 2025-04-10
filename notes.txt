@@ -1,4 +1,4 @@
-1. Create database name `enhancing-school-safety`
+1. Create database name `ess-app`
 2. Open your php.ini file.
 If you encounter an error related to ext-gd, enable the GD extension in your php.ini file.
 Remove the semicolon (;) to enable it:
@@ -10,6 +10,10 @@ extension=gd
 Run the following command if you haven't already:
 php artisan storage:link
 
+Using Laravel Herd
+
+cp .env.example .env
+php artisan key:generate
 
 icon reference
 https://fontawesome.com/v4/icons/
