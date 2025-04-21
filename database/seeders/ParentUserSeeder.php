@@ -17,13 +17,16 @@ class ParentUserSeeder extends Seeder
         // DB::table('parent_users')->insert(
         //     [
         //         'qr_code' => 'QR-PARENT-' . rand(100000, 999999),
-        //         'name' => 'John Doe',
-        //         'email' => 'john.doe@example.com',
-        //         'password' => Hash::make('password'),
-        //         'phone_number' => '09123456789',
-        //         'parent_type'   => 'father',
-        //         'address'   => '643 Kuphal Plains, North Otiliafield, North Carolina - 55451, Chile',
-        //         'id_type' => 'passport',
+        //         'name' => 'Maria Garcia',
+        //         'email' => 'emily.garcia1234@gmail.com',
+        //         'email_verified_at'=> now(),
+        //         'password' => Hash::make('12345678'),
+        //         'phone_number' => '09171234567',
+        //         'parent_type'   => 'mother',
+        //         'address'   => '101 Maple Street, Quezon City',
+        //         'id_type' => 'driver_license',
+        //         'created_at'=> now(),
+        //         'updated_at'=> now(),
         //     ]
         // );
     }
