@@ -170,11 +170,11 @@
                                     <label style="font-size: 20px;" class="small mb-1" for="parent_type">RelationShip</label>
                                     <input style="font-size: 20px;" class="form-control" id="parent_type" type="text" readonly>
                                 </div>
-                                <div class="mb-3">
+                                {{-- <div class="mb-3">
                                     <a href="{{route('admin.dashboard')}}">
                                         <button type="button" class="btn btn-sm btn-dark"><< Back </button>
                                     </a>
-                                </div>
+                                </div> --}}
                                 <div class="mb-3">
                                     <table class="table table-bordered">
                                         <thead>
