@@ -82,8 +82,11 @@
                     @foreach($parents as $parent)
                         <tr>
                             <td>
-                                <img src="{{ $parent->profile_picture ? asset('storage/' . $parent->profile_picture) : asset('images/frontend/default.png') }}" 
-                                     class="rounded-circle photo-preview" width="40">
+                                <a href="javascript:void(0);" class="photo-preview" data-src="{{ $parent->profile_picture ? asset('storage/' . $parent->profile_picture) : asset('images/frontend/default.png') }}">
+                                    <img src="{{ $parent->profile_picture ? asset('storage/' . $parent->profile_picture) : asset('images/frontend/default.png') }}" 
+                                     class="rounded-circle" width="50" height="50">
+                                </a>
+                                
                             </td>
                             <td>{{ $parent->name }}</td>
                             <td>{{ $parent->email }}</td>
