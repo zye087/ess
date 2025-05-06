@@ -28,6 +28,7 @@ class ParentUserSeeder extends Seeder
                 'id_type' => 'driver_license',
                 'id_photo'=> 'id_photos/HjUQ58MANTJ4DIUeNe2Rwu5A1OGOuvluiz5JWvlY.jpg',
                 'profile_picture'=> 'profiles/C0uIpi1Qh8.png',
+                'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]
@@ -47,6 +48,7 @@ class ParentUserSeeder extends Seeder
                 'id_type' => 'driver_license',
                 'id_photo'=> 'id_photos/OAqhCMzwQxNRTAm09Yx4Wh9pr5WsvUJMvlUpJj4a.jpg',
                 'profile_picture'=> 'profiles/KgOqocSBr9.png',
+                'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]
@@ -66,6 +68,7 @@ class ParentUserSeeder extends Seeder
                 'id_type' => 'driver_license',
                 'id_photo'=> 'id_photos/ToUEfdZfvZ6stYeQiTrppODERgfqUERASINPv8QH.jpg',
                 'profile_picture'=> 'profiles/NziYING89x.png',
+                'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]
@@ -85,6 +88,7 @@ class ParentUserSeeder extends Seeder
                 'id_type' => 'driver_license',
                 'id_photo'=> 'id_photos/UPbTL2A0QMyFP1jKiL017lfbXjLlhhUPBGFePbxC.jpg',
                 'profile_picture'=> 'profiles/T8by5VWfh5.png',
+                'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]
@@ -104,6 +108,7 @@ class ParentUserSeeder extends Seeder
                 'id_type' => 'driver_license',
                 'id_photo'=> 'id_photos/zHDt6msLFeoCCSSFNR5wRw4NEOUK5woYsxu6bFMz.jpg',
                 'profile_picture'=> 'profiles/ukaaFbm1ZZ.png',
+                'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now(),
             ]
