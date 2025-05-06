@@ -3,7 +3,7 @@
         <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle"><i data-feather="menu"></i></button>
     @endif
     <a class="navbar-brand pe-3 ps-4 ps-lg-2 text-success" href="{{route('admin.dashboard')}}">
-        <img src="{{ asset('images/frontend/favicon-32x32.png') }}" alt="logo" style="width: 32px;height:32px;" /> {{ $settings['site_name'] ?? 'Enhancing School Safety' }}
+        <img src="{{ asset('images/frontend/favicon-32x32.png') }}" alt="logo" style="width: 32px;height:32px;" /> {{ $settings['site_name'] ?? 'Formative Academic and Skills Development School' }}
     </a>
 
     <!-- Navbar Items-->
