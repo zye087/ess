@@ -146,7 +146,7 @@
                 <div class="card mb-4">
                     <div class="card-header text-success">Photo</div>
                     <div class="card-body text-center">
-                        <img id="profile_photo" class="img-account-profile rounded-circle mb-2" style="width: 200px;height:auto;" src="{{asset('images/frontend/default.png')}}" alt="" width="100">
+                        <img id="profile_photo" class="img-account-profile rounded-circle mb-2" style="width: 200px;height:200px;" src="{{asset('images/frontend/default.png')}}" alt="" width="100">
                     </div>
                 </div>
             </div>
