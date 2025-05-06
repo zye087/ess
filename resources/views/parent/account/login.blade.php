@@ -79,9 +79,9 @@
                               <label class="form-check-label" for="rememberMeCheckbox">Remember me</label>
                            </div>
 
-                           <div>
+                           {{-- <div>
                               <a href="javascript:void;" class="text-success">Forgot Password</a>
-                           </div>
+                           </div> --}}
                         </div>
 
                         <div class="d-grid">
